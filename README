@@ -2,7 +2,7 @@ NAME
     Business::FR::RIB - Verify French RIB (Relevé d'Identité Bancaire)
 
 VERSION
-    Version 0.01
+    Version 0.02
 
 SYNOPSIS
       use Business::FR::RIB;

@@ -5,7 +5,7 @@ use strict;
 BEGIN {
     use Exporter ();
     use vars qw($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-    $VERSION     = '0.01';
+    $VERSION     = '0.02';
     @ISA         = qw(Exporter);
     #Give a hoot don't pollute, do not export more than needed by default
     @EXPORT      = qw();
@@ -21,7 +21,7 @@ Business::FR::RIB - Verify French RIB (Relevé d'Identité Bancaire)
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =head1 SYNOPSIS
 
@@ -220,16 +220,6 @@ sub get_cle_rib {
 }# sub get_cle_rib
 
 ########################################################################
-
-=head1 INSTALLATION
-
-To install this module, run the following commands:
-
-    perl Makefile.PL
-    make
-    make test
-    make install
-
 
 =head1 BUGS and SUPPORT
 
