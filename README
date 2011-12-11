@@ -1,8 +1,8 @@
 NAME
-    Business::FR::RIB - Verify French RIB (Relevé d'Identité Bancaire)
+    Business::FR::RIB - Verify French RIB (Releve d'Identite Bancaire)
 
 VERSION
-    Version 0.02
+    Version 0.03
 
 SYNOPSIS
       use Business::FR::RIB;
@@ -10,7 +10,7 @@ SYNOPSIS
       print "RIB valid" if $object->is_valid();
 
 DESCRIPTION
-    This module determines whether a French RIB (Relevé d'Identité
+    This module determines whether a French RIB (Releve d'Identite
     Bancaire) is well-formed.
 
     Please note that there is no way to determine whether a RIB is linked to
