@@ -5,7 +5,7 @@ use strict;
 BEGIN {
     use Exporter ();
     use vars qw($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-    $VERSION     = '0.02';
+    $VERSION     = '0.03';
     @ISA         = qw(Exporter);
     #Give a hoot don't pollute, do not export more than needed by default
     @EXPORT      = qw();
@@ -17,11 +17,11 @@ BEGIN {
 
 =head1 NAME
 
-Business::FR::RIB - Verify French RIB (Relevé d'Identité Bancaire)
+Business::FR::RIB - Verify French RIB (Releve d'Identite Bancaire)
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =head1 SYNOPSIS
 
@@ -31,7 +31,7 @@ Version 0.02
 
 =head1 DESCRIPTION
 
-This module determines whether a French RIB (Relevé d'Identité Bancaire)
+This module determines whether a French RIB (Releve d'Identite Bancaire)
 is well-formed.
 
 Please note that there is no way to determine whether a RIB is linked to
