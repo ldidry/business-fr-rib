@@ -2,6 +2,8 @@
 
 # t/002_rib_test.t - check module working
 
+use strict;
+use warnings;
 use Test::More tests => 9;
 
 use Business::FR::RIB;

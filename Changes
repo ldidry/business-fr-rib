@@ -1,5 +1,8 @@
 Revision history for Perl module Business::FR::RIB
 
+0.04 Wed Jan 04 14.17.31 2012
+    - use of perlcritic leads me to makes some changes in the tests
+
 0.03 Sun Dec 11 19:00:00 2011
     - Update pod (delete french accents)
 
