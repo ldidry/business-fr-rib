@@ -5,7 +5,7 @@ use strict;
 BEGIN {
     use Exporter ();
     use vars qw($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-    $VERSION     = '0.04';
+    $VERSION     = '0.05';
     @ISA         = qw(Exporter);
     #Give a hoot don't pollute, do not export more than needed by default
     @EXPORT      = qw();
@@ -21,7 +21,7 @@ Business::FR::RIB - Verify French RIB (Releve d'Identite Bancaire)
 
 =head1 VERSION
 
-Version 0.03
+Version 0.05
 
 =head1 SYNOPSIS
 

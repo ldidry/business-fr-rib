@@ -2,7 +2,7 @@ NAME
     Business::FR::RIB - Verify French RIB (Releve d'Identite Bancaire)
 
 VERSION
-    Version 0.03
+    Version 0.05
 
 SYNOPSIS
       use Business::FR::RIB;
@@ -10,8 +10,8 @@ SYNOPSIS
       print "RIB valid" if $object->is_valid();
 
 DESCRIPTION
-    This module determines whether a French RIB (Releve d'Identite
-    Bancaire) is well-formed.
+    This module determines whether a French RIB (Releve d'Identite Bancaire)
+    is well-formed.
 
     Please note that there is no way to determine whether a RIB is linked to
     a true bank account without using it or asking the bank.
@@ -53,14 +53,6 @@ METHODS
   get_cle_rib
      Usage     : $object->get_cle_rib();
      Returns   : The RIB key
-
-INSTALLATION
-    To install this module, run the following commands:
-
-        perl Makefile.PL
-        make
-        make test
-        make install
 
 BUGS and SUPPORT
     You can find documentation for this module with the perldoc command.
