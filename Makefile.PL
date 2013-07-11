@@ -14,4 +14,14 @@ WriteMakefile(
                      'Test::Pod::Coverage' => 1.08,
                      'Test::Pod'           => 0.18,
                     },
+    META_MERGE => {
+        "meta-spec" => { version => 2 },
+        resources => {
+            repository => {
+                type => 'git',
+                url  => 'git://github.com/ldidry/business-fr-rib.git',
+                web  => 'https://github.com/ldidry/business-fr-rib',
+            },
+        },
+    },
 );
